@@ -17,9 +17,9 @@ class OCR_detect:
         self.imgpath = imgpath
         self.sample_size = sample_size
         self.config = {
-                'appId': '16062391',
-                'apiKey': 'AtI918UKorceyzuSkEk1Yqhs',
-                'secretKey': '1fZ27riarRise9aAQMa5Zx4m46ErOxUt'
+                'appId': '',# Your id
+                'apiKey': '',# Your api key
+                'secretKey': ''# Your secret key
         }
         self.client = AipOcr(**self.config)
 
